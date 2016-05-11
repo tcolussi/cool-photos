@@ -1,0 +1,69 @@
+.profile,
+.alert,
+#main,
+#picture,
+#description,
+#upload,
+#submit,
+#middle,
+#wrap,
+#fixer,
+#tools .item,
+#tools a.remove,
+.ui-corner-all,
+#steps,
+#steps .number,
+#footer { behavior: url(css/pie.htc); }
+ 
+.profile { -pie-border-radius: 5px; }
+ 
+#main {
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+ 
+#picture {
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+
+#upload { -pie-border-radius: 5px; }
+ 
+#description { 
+	-pie-border-radius: 5px; 
+	-pie-background: rgba(0, 0, 0, 0.3);
+}
+ 
+#submit { -pie-border-radius: 5px; }
+ 
+#middle {
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+
+#wrap { 
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+
+#fixer { -pie-border-radius: 5px; }
+
+#tools .item { -pie-border-radius: 5px; }
+
+#tools a.remove { -pie-border-radius: 2px; }
+
+.ui-corner-all { -pie-border-radius: 5px; }
+ 
+.alert { -pie-border-radius: 5px; }
+ 
+#steps {
+	-pie-background: rgba(255, 255, 255, 0.1);
+	-pie-border-radius: 5px;
+}
+ 
+#steps .number {
+	-pie-background: rgba(0, 0, 0, 0.3);
+	-pie-border-radius: 50%; 
+}
+ 
+#footer { -pie-background: rgba(0, 0, 0, 0.4); }
