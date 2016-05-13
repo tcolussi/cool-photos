@@ -94,7 +94,7 @@
   &lt;!-- END html --&gt;</code>
   <hr>
   
-  <h3 id="adsense"><strong>E) Adsense Banners</strong> - <a href="#toc">top</a></h3>
+  <h3 id="adsense"><strong>E) Adsense Banners</strong></h3>
   <p>The app includes two 120x600 banner spaces. You can choose to place your own banners or remove them by editing the underlined code below in <strong>index.php</strong>, line 68:</p>
   <code> &lt;div id=&quot;left-add&quot; class=&quot;banner&quot;&gt;<br>
   <br>
