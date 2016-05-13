@@ -26,7 +26,7 @@
 <p><span class="underline">Once you got your App ID, your App Secret and your Site URL you just have to insert them in the corresponding places on the fbmain.php file and the App should start working.</span></p>
 <hr>
 
-  <h3 id="php"><strong>C) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+  <h3 id="php"><strong>C) PHP Code Explanation</strong></h3>
   <p><strong>The fbmain.php file</strong></p>
   <p>This file contains all the main functions from the app. This is the only .php file you will have to edit in order for your app to work properly. Open <strong>fbmain.php</strong> and write your "App ID", "App Secret" and "Site URL" in this corresponding places:</p>
   <img src="assets/images/4.jpg" alt="" />
@@ -38,7 +38,7 @@
   <img src="assets/images/7.jpg" alt="" />
   <hr>
 
- <h3 id="htmlStructure"><strong>D) HTML Structure</strong> - <a href="#toc">top</a></h3>
+ <h3 id="htmlStructure"><strong>D) HTML Structure</strong></h3>
   <p>This app is a fixed layout with three columns. The HTML structure is basically divided in four parts:</p>
   <ul>
     <li><strong>Header:</strong> The logo, like button and user profile name are inside a div with the id #header.</li>
