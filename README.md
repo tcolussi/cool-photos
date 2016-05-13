@@ -81,3 +81,30 @@
   &lt;/html&gt;<br>
   &lt;!-- END html --&gt;</code>
   <hr>
+  
+  <h3 id="adsense"><strong>E) Adsense Banners</strong> - <a href="#toc">top</a></h3>
+  <p>The app includes two 120x600 banner spaces. You can choose to place your own banners or remove them by editing the underlined code below in <strong>index.php</strong>, line 68:</p>
+  <code> &lt;div id=&quot;left-add&quot; class=&quot;banner&quot;&gt;<br>
+  <br>
+  <span class="underline">&nbsp; &lt;script type=&quot;text/javascript&quot;&gt;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_client = &quot;ca-pub-5997029164354874&quot;;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_slot = &quot;8599768551&quot;;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_width = 120;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_height = 600;<br>
+  &nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+  &nbsp; &lt;script type=&quot;text/javascript&quot; src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&gt;&lt;/script&gt;</span><br>
+  &nbsp;<br>
+  &lt;/div&gt;&lt;!--left-add--&gt;<br>
+  <br>
+  &lt;div id=&quot;right-add&quot; class=&quot;banner&quot;&gt;<br>
+  <br>
+  <span class="underline">&nbsp; &lt;script type=&quot;text/javascript&quot;&gt;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_client = &quot;ca-pub-5997029164354874&quot;;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_slot = &quot;2553234954&quot;;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_width = 120;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; google_ad_height = 600;<br>
+  &nbsp;&nbsp;&nbsp; &lt;/script&gt;<br>
+  &nbsp; &lt;script type=&quot;text/javascript&quot; src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&gt;&lt;/script&gt;</span><br>
+  &nbsp;<br>
+  &lt;/div&gt;&lt;!--right-add--&gt; </code>
+  <hr>
