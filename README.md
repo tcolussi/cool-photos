@@ -120,3 +120,16 @@
   &nbsp;<br>
   &lt;/div&gt;&lt;!--right-add--&gt; </code>
   <hr>
+  
+ <h3 id="cssFiles"><strong>F) CSS Files and Structure</strong></h3>
+  <p>The app uses one main CSS file named <strong>style.css</strong>, all styling changes must be done here. Aditionally there is a stylesheet named <strong>ie.css</strong> which is only used for bug fixes in Internet Explorer.</p>
+  <p><strong>style.css</strong> is divided in six parts:</p>
+  <ul>
+    <li><strong>/* CSS Reset & Clearfix */</strong> all the document CSS reset is done here. </li>
+    <li><strong>/* Document Setup */</strong> all the styling for the body and common classes are done here. </li>
+    <li><strong>/* Header Styles */</strong> all the styling for the header container and logo is done here. </li>
+    <li><strong>/* Navigation */</strong> all the styling for user profile name and options is done here. </li>
+    <li><strong>/* Main Content Styles */</strong> all the styling for the main containers in index.php is done here.</li>
+    <li><strong>/* Footer Styles */</strong> the styling for the credits is done here. </li>
+  </ul>
+  <hr>
