@@ -26,6 +26,18 @@
 <p><span class="underline">Once you got your App ID, your App Secret and your Site URL you just have to insert them in the corresponding places on the fbmain.php file and the App should start working.</span></p>
 <hr>
 
+  <h3 id="php"><strong>C) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+  <p><strong>The fbmain.php file</strong></p>
+  <p>This file contains all the main functions from the app. This is the only .php file you will have to edit in order for your app to work properly. Open <strong>fbmain.php</strong> and write your "App ID", "App Secret" and "Site URL" in this corresponding places:</p>
+  <img src="assets/images/4.jpg" alt="" />
+  <p>In <strong>fbmain.php</strong>, line 67, we have the code to publish the new image with the extra elements in the user's Facebook profile through the Facebook photos.upload method. If you want to change the default description of the image when users don't choose one, you can do it on line 70.</p>
+  <img src="assets/images/5.jpg" alt="" />
+  <p>In <strong>index.php</strong> line 174, is the code that shows the "Add Picture" button and the container div for the uploaded photo.</p>
+  <img src="assets/images/6.jpg" alt="" />
+  <p>In <strong>upload.php</strong> line 4, you can change different parameters for your photo upload such as the folder where you want to save the images, the max/min width and height allowed, the maximum image size and the allowed image formats.</p>
+  <img src="assets/images/7.jpg" alt="" />
+  <hr>
+
  <h3 id="htmlStructure"><strong>D) HTML Structure</strong> - <a href="#toc">top</a></h3>
   <p>This app is a fixed layout with three columns. The HTML structure is basically divided in four parts:</p>
   <ul>
