@@ -1,6 +1,6 @@
 # Cool Photos - Facebook App
 
-<h3><strong>Introduction</strong></h3>
+<h3><strong>A) Introduction</strong></h3>
 <p>The first thing you have to do is to decide which color and background you are going to use for the app. You can choose from 32 different background images and unlimited color combos.</p>
 <p>To change the color of your app you will have to open <strong>style.css</strong> and look for the underlined code below in line 37:</p>
 <code>background: url(../images/bgs/<span class="underline">bg-28.jpg</span>) repeat center top <span class="underline">#004772</span>;</code>
