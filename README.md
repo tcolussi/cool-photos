@@ -25,3 +25,59 @@
 <img src="assets/images/3.jpg" alt="" />
 <p><span class="underline">Once you got your App ID, your App Secret and your Site URL you just have to insert them in the corresponding places on the fbmain.php file and the App should start working.</span></p>
 <hr>
+
+ <h3 id="htmlStructure"><strong>D) HTML Structure</strong> - <a href="#toc">top</a></h3>
+  <p>This app is a fixed layout with three columns. The HTML structure is basically divided in four parts:</p>
+  <ul>
+    <li><strong>Header:</strong> The logo, like button and user profile name are inside a div with the id #header.</li>
+    <li><strong>Main Content:</strong> The profile picture, tabs, upload button and alert messages are inside a div with the id #main.</li>
+    <li><strong>App Info Content:</strong> The app instructions for users are inside a div with the id #steps.</li>
+    <li><strong>Footer:</strong> The credits of the app are inside a div with the id #footer.</li>
+  </ul>
+  <code> &lt;!DOCTYPE html&gt;<br>
+  <br>
+  &lt;!-- BEGIN html --&gt;<br>
+  &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:fb=&quot;http://www.facebook.com/2008/fbml&quot;&gt;<br>
+  <br>
+  &lt;!-- BEGIN head --&gt;<br>
+  &lt;head&gt;<br>
+  <br>
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;/&gt;<br>
+  <br>
+  &lt;title&gt;Cool Photos&lt;/title&gt;<br>
+  <br>
+  &lt;!-- END head --&gt;<br>
+  &lt;/head&gt;<br>
+  <br>
+  &lt;!-- BEGIN body --&gt;<br>
+  &lt;body&gt;<br>
+  <br>
+  &lt;div id=&quot;header&quot; class=&quot;inner&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <span class="underline">All header contents here</span><br>
+  &nbsp;&nbsp; &nbsp;<br>
+  &lt;/div&gt;&lt;!--header--&gt;<br>
+  <br>
+  &lt;div id=&quot;main&quot; class=&quot;clearfix&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <span class="underline">All main contents here</span> &nbsp;<br>
+  &nbsp;<br>
+  &lt;/div&gt;&lt;!--main--&gt;<br>
+  <br>
+  &lt;div id=&quot;steps&quot; class=&quot;clearfix&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <span class="underline">All App info contents here</span><br>
+  &nbsp;<br>
+  &lt;/div&gt;&lt;!--steps--&gt;<br>
+  <br>
+  &lt;div id=&quot;footer&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp; <span class="underline">All footer contents here</span><br>
+  &nbsp;<br>
+  &lt;/div&gt;&lt;!--footer--&gt;<br>
+  <br>
+  &lt;!-- END body --&gt;<br>
+  <br>
+  &lt;/html&gt;<br>
+  &lt;!-- END html --&gt;</code>
+  <hr>
